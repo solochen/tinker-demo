@@ -16,7 +16,7 @@
 
 4.以上是老的apk设置步骤，现在来看下怎么生成修复版补丁包以及补丁包怎么安装在老的版本中
 5.在MainActivity中随便添加一个按钮，区别于老版本：
-![img](https://github.com/solochen/tinker-demo/blob/master/app/image/d4.jpg)
+![img](https://github.com/solochen/tinker-demo/blob/master/app/image/d4_1.jpg)
 6.双击运行gradle--Tasks--tinker--tinkerPatchDebug:
 ![img](https://github.com/solochen/tinker-demo/blob/master/app/image/d5.jpg)
 运行完毕会在app/build/outputs/apk/tinkerPatch/debug/中生成patch_signed_7zip.apk文件，这个文件就是新apk与老apk的差异补丁包
