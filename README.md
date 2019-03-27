@@ -1,6 +1,6 @@
 # tinker-demo
 
-###这里的demo示例代码完全是拷贝官方的，这里只记录使用demo时踩的坑。
+### 这里的demo示例代码完全是拷贝官方的，这里只记录使用demo时踩的坑。
 
 1. 导入demo运行时会一直报错，提示'tinkerId is not set!!!', 这是因为demo中tinerId使用的是git版本来作为唯一的tinkerId，这里我为了测试直接写死：
 ![img](https://github.com/solochen/tinker-demo/blob/master/app/image/d3.jpg)
@@ -32,4 +32,4 @@
 ![img](https://github.com/solochen/tinker-demo/blob/master/app/image/d4_1.jpg)
 
 
-#注：检查存储权限是否开启
+# 注：检查存储权限是否开启
