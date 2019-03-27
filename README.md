@@ -30,3 +30,6 @@
 
 8.手机中打开demo，点击Load patch，重启demo，此时底部就出现了新增的按钮。
 ![img](https://github.com/solochen/tinker-demo/blob/master/app/image/d4_1.jpg)
+
+
+#注：检查存储权限是否开启
