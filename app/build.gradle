@@ -34,7 +34,7 @@ dependencies {
 
 def gitSha() {
     try {
-        String gitRev = '1008666'
+        String gitRev = '1234567'
         if (gitRev == null) {
             throw new GradleException("can't get git rev, you should add git to system path or just input test value, such as 'testTinkerId'")
         }
