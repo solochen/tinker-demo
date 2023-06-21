@@ -41,6 +41,7 @@ public class MyLogImp implements TinkerLog.TinkerLogImp {
     public static void setLevel(final int level) {
         MyLogImp.level = level;
         android.util.Log.w(TAG, "new log level: " + level);
+        android.util.Log.E(TAG, "abc " + level);
 
     }
 
@@ -82,6 +83,7 @@ public class MyLogImp implements TinkerLog.TinkerLogImp {
             final String log = objects == null ? s1 : String.format(s1, objects);
             android.util.Log.e(s, log);
         }
+         android.util.Log.e(s, s1);
     }
 
     @Override
